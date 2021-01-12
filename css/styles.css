@@ -42,6 +42,12 @@ hr {
 .fa {
   color: white;
   margin: auto 10px;
+  -webkit-transition: 0.5s linear;
+  transition: 0.5s linear;
+}
+
+.fa:hover {
+  color: red;
 }
 
 .head-but {
@@ -54,6 +60,8 @@ hr {
   text-align: center;
   padding-top: 16px;
   border-radius: 5px;
+  -webkit-transition: 0.8s ease;
+  transition: 0.8s ease;
 }
 
 .head-but:hover {
@@ -89,14 +97,30 @@ hr {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 60%;
+  height: 100%;
+}
+
+.nav-but {
+  height: 100%;
+  -webkit-transition: 0.8s linear;
+  transition: 0.8s linear;
+}
+
+.nav-but:hover {
+  background-color: red;
 }
 
 .nav-but a {
   text-decoration: none;
   color: white;
   font-size: 13px;
-  margin: auto 10px;
+  margin: auto 13px;
+  position: relative;
+  top: 13px;
 }
 
 .search {

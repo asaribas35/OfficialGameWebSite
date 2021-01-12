@@ -1,5 +1,5 @@
-$primary-color: red;
-$secondary-color: blue;
+$primary-color: rgb(21,20,20);
+$secondary-color: red;
 
 *{
     margin: 0px;
@@ -8,7 +8,7 @@ $secondary-color: blue;
     font-family: sans-serif;
 }
 header{
-    background-color: rgb(21,20,20);
+    background-color: $primary-color;
 }
 hr{
     border-top:1px solid red;
@@ -25,14 +25,21 @@ hr{
     align-items: center;
 }
 .logo a{
-    color:red;
+    color: $secondary-color;
     font-size: 3rem;
     text-decoration: none;
 }
 .fa{
     color: white;
     margin: auto 10px;
+    transition: 0.5s linear;
 }
+
+.fa:hover{
+    color: red;
+    }
+
+
 .head-but{
     position: relative;
     float: left;
@@ -43,6 +50,7 @@ hr{
     text-align: center;
     padding-top: 16px;
     border-radius: 5px;
+    transition: 0.8s ease;
 }
 .head-but:hover{
     opacity: 0.8;;
@@ -67,14 +75,27 @@ hr{
 .nav-buttons{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 60%;
+    height: 100%;
 }
+.nav-but{
+    height: 100%;
+    transition: 0.8s linear;
+}
+.nav-but:hover{
+    background-color:$secondary-color;
+}
+
+
 .nav-but a{
    
     text-decoration: none;
     color: white;
     font-size: 13px;
-    margin: auto 10px;
+    margin:auto 13px;
+    position: relative;
+    top: 13px;
 }
 .search{
     height: 24px;
