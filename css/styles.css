@@ -154,4 +154,97 @@ hr {
   -webkit-transform: translateX(390%);
           transform: translateX(390%);
 }
+
+.kayar {
+  width: 100%;
+  height: 650px;
+  position: relative;
+}
+
+.kayar1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("/img/nassim-all-ot-HSrLNTP0-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.kayar2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("/img/pawel-kadysz-CuFYW1c97w8-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.kayar3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("/img/fredrick-tendong-6ou8gWpS9ns-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.list {
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.list li {
+  list-style: none;
+  font-size: 1.5em;
+  margin: auto 10px;
+}
+
+.list li a {
+  text-decoration: none;
+  color: red;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.kayar-content {
+  color: white;
+  width: 89%;
+  height: 500px;
+  background-color: rgba(21, 20, 20, 0.2);
+}
+
+.kayar-content h1 {
+  margin-top: 90px;
+  margin-left: 30px;
+}
+
+.kayar-content p {
+  margin-top: 50px;
+  margin-left: 30px;
+  width: 84%;
+}
+
+#buton1:hover {
+  color: white;
+  z-index: 1;
+}
+
+#buton2:hover {
+  color: white;
+}
+
+#buton3:hover {
+  color: white;
+}
 /*# sourceMappingURL=styles.css.map */
