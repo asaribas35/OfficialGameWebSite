@@ -1,22 +1,31 @@
-$primary-color: rgb(21,20,20);
-$secondary-color: red;
+$primary-color: #14151A;
+$secondary-color: #E51515;
+$date-color: #FFB320;
+$comment-color: #08ABBD;
+$gray-color:#9f9f9f;
+$light-color:#FEFEFE;
 
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: sans-serif;
+    
+}
+body{
+    background-color: $light-color;
 }
 header{
     background-color: $primary-color;
 }
 hr{
-    border-top:1px solid red;
-    border-bottom: 1px solid red;
+    border-top:1px solid $secondary-color;
+    border-bottom: 1px solid $secondary-color;
 }
 .container{
     width: 86%;
     margin:auto;
+    max-width: 1170px;
 }
 .head{
     height: 100px;
@@ -30,13 +39,13 @@ hr{
     text-decoration: none;
 }
 .fa{
-    color: white;
+    color: $light-color;
     margin: auto 10px;
     transition: 0.5s linear;
 }
 
 .fa:hover{
-    color: red;
+    color: $secondary-color;
     }
 
 
@@ -44,7 +53,7 @@ hr{
     position: relative;
     float: left;
     margin: auto 15px;
-    background-color: red;
+    background-color:$secondary-color;
     height: 50px;
     width: 120px;
     text-align: center;
@@ -63,7 +72,7 @@ hr{
     width: 100%;
     height: 100%;
     text-decoration: none;
-    color: white;
+    color: $light-color;
     
 }
 .nav{
@@ -81,6 +90,8 @@ hr{
 }
 .nav-but{
     height: 100%;
+    width: 127px;
+    text-align: center;
     transition: 0.8s linear;
 }
 .nav-but:hover{
@@ -91,7 +102,7 @@ hr{
 .nav-but a{
    
     text-decoration: none;
-    color: white;
+    color: $light-color;
     font-size: 13px;
     margin:auto 13px;
     position: relative;
@@ -109,10 +120,10 @@ hr{
     height: 100%;
     border: none;
     outline: none;
-    background-color: rgb(33,33,33);
-    color: white;
+    background-color: $gray-color;
+    color: $light-color;
     border-radius: 5px;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid $secondary-color;
 }
 .label1{
     
@@ -146,7 +157,7 @@ hr{
 }
 .menu-num a{
     text-decoration: none;
-    color: red;
+    color: $secondary-color;
     margin: auto 6px;
     font-size: 17px;
     padding: 4px 4px;
@@ -163,7 +174,7 @@ hr{
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    transition: 1s ease;
+    
 }
 .kayar2{
     position: absolute;
@@ -193,7 +204,7 @@ hr{
 .kayar-content{
     position: relative;
     top: 100px;
-    color: white;
+    color: $light-color;
     width: 89%;
     height: 500px;
     background-color:rgba(21,20,20,0.2);
@@ -211,5 +222,5 @@ hr{
 }
 .pin1{
     z-index: 1;
-}
+    }
 

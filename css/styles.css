@@ -6,18 +6,23 @@
   font-family: sans-serif;
 }
 
+body {
+  background-color: #FEFEFE;
+}
+
 header {
-  background-color: #151414;
+  background-color: #14151A;
 }
 
 hr {
-  border-top: 1px solid red;
-  border-bottom: 1px solid red;
+  border-top: 1px solid #E51515;
+  border-bottom: 1px solid #E51515;
 }
 
 .container {
   width: 86%;
   margin: auto;
+  max-width: 1170px;
 }
 
 .head {
@@ -34,27 +39,27 @@ hr {
 }
 
 .logo a {
-  color: red;
+  color: #E51515;
   font-size: 3rem;
   text-decoration: none;
 }
 
 .fa {
-  color: white;
+  color: #FEFEFE;
   margin: auto 10px;
   -webkit-transition: 0.5s linear;
   transition: 0.5s linear;
 }
 
 .fa:hover {
-  color: red;
+  color: #E51515;
 }
 
 .head-but {
   position: relative;
   float: left;
   margin: auto 15px;
-  background-color: red;
+  background-color: #E51515;
   height: 50px;
   width: 120px;
   text-align: center;
@@ -75,7 +80,7 @@ hr {
   width: 100%;
   height: 100%;
   text-decoration: none;
-  color: white;
+  color: #FEFEFE;
 }
 
 .nav {
@@ -106,17 +111,19 @@ hr {
 
 .nav-but {
   height: 100%;
+  width: 127px;
+  text-align: center;
   -webkit-transition: 0.8s linear;
   transition: 0.8s linear;
 }
 
 .nav-but:hover {
-  background-color: red;
+  background-color: #E51515;
 }
 
 .nav-but a {
   text-decoration: none;
-  color: white;
+  color: #FEFEFE;
   font-size: 13px;
   margin: auto 13px;
   position: relative;
@@ -135,10 +142,10 @@ hr {
   height: 100%;
   border: none;
   outline: none;
-  background-color: #212121;
-  color: white;
+  background-color: #9f9f9f;
+  color: #FEFEFE;
   border-radius: 5px;
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid #E51515;
 }
 
 .label1 {
@@ -176,12 +183,12 @@ hr {
 
 .menu-num a {
   text-decoration: none;
-  color: red;
+  color: #E51515;
   margin: auto 6px;
   font-size: 17px;
   padding: 4px 4px;
   border-radius: 15px;
-  background-color: #151414;
+  background-color: #14151A;
 }
 
 .kayar1 {
@@ -193,8 +200,6 @@ hr {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-transition: 1s ease;
-  transition: 1s ease;
 }
 
 .kayar2 {
@@ -222,7 +227,7 @@ hr {
 .kayar-content {
   position: relative;
   top: 100px;
-  color: white;
+  color: #FEFEFE;
   width: 89%;
   height: 500px;
   background-color: rgba(21, 20, 20, 0.2);
