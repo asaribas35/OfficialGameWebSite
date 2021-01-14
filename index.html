@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/owl.carousel.css">
+    <link rel="stylesheet" href="/css/owl.theme.default.css">
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
     <title>D-503</title>
@@ -61,18 +63,14 @@
         </div>
     </header>
 
-    <div class="kayar">
-        <div class="menu-num">
-            <a href="#" id="num1">01</a>
-            <a href="#" id="num2">02</a>
-            <a href="#" id="num3">03</a>
-        </div>
-       
-        <div class="kayar1 ">
+    <!-- -------------------------OWL CAROUSEL-------------------- -->
+    <div class="main-slider owl-carousel owl-theme">
+        <div class="alan"> 
+            <img src="/img/fredrick-tendong-6ou8gWpS9ns-unsplash.jpg" alt="">
+            <div class="overlay">
             <div class="container">
-                
-                <div class="kayar-content">
-                    <hr>
+                <div class="content">
+                    <hr id="hr-top">
                     <h1>LOOKING UNNATURAL WONDERS</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet a corporis eligendi, minima soluta
                         nemo at excepturi? Maiores adipisci quas officiis quisquam, voluptatibus, amet magni nesciunt
@@ -81,12 +79,14 @@
                 </div>
             </div>
         </div>
-
-        <div class="kayar2 ">
+        </div>
+        <div class="alan">
+            <img src="/img/nassim-all-ot-HSrLNTP0-unsplash.jpg" alt="">
+            <div class="overlay">
             <div class="container">
                 
-                <div class="kayar-content">
-                    <hr>
+                <div class="content">
+                    <hr id="hr-top">
                     <h1>WE ARE LEGEND</h1>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit amet quos ipsam consectetur
                         autem, accusamus veniam quas ducimus quam iusto temporibus consequuntur eius placeat aut ea
@@ -98,12 +98,14 @@
                 </div>
             </div>
         </div>
-
-        <div class="kayar3 ">
+        </div>
+        <div class="alan">
+            <img src="/img/pawel-kadysz-CuFYW1c97w8-unsplash.jpg" alt="">
+            <div class="overlay">
             <div class="container">
                
-                <div class="kayar-content">
-                    <hr>
+                <div class="content">
+                    <hr id="hr-top">
                     <h1>WHO ARE YOU</h1>
                     <p> dolor sit amet consectetur, adipisicing elit. Impedit amet quos ipsam consectetur autem,psum
                         dolor sit amet consectetur, adipisicing elit. Impedit amet quos ipsam consectetur autem,
@@ -121,11 +123,27 @@
                 </div>
             </div>
         </div>
-       
+        </div>
 
-    </div>
+      </div>
 
-    <script src="/js/script.js"></script>
+    <!-- -------------------------OWL CAROUSEL-------------------- -->
+
+    <script src="/js/jquery-3.5.1.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
+   
+    <script>
+        $(document).ready(function(){
+           let owl= $(".owl-carousel").owlCarousel({
+                
+               dots:false,
+               items: 1,
+               
+           }
+               
+           );
+          });
+          </script>
 </body>
 
 </html>

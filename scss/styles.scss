@@ -25,7 +25,7 @@ hr{
 .container{
     width: 86%;
     margin:auto;
-    max-width: 1170px;
+    
 }
 .head{
     height: 100px;
@@ -137,90 +137,52 @@ hr{
     transform: translateX(390%);
 }
 
-.kayar{
-    width: 100%;
-    height: 650px;
-    position: relative;
-}
-.menu-num{
-    position: absolute;
-    z-index: 2;
-    top: 30px;
-    right: 14em;
+//-----------------------------OWL CAROUSEL---------------------------------
+.main-slider{
+    .alan{
+        position: relative;
+        img{
+            width: 100%;
+            height: 700px;
+        }
+        
+        .overlay{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            .content{
+                position: relative;
+                width: 86%;
+                height: 500px;
+                top:120px;
+                background-color: rgba($color: #000000, $alpha: 0.4);
+                color: #fefefe;
+                
+                h1{
+                    margin: 50px auto;
+                   padding-left: 15px;
+                }
+                p{
+                    padding: 0px 10px;
 
-}
-#hr-bottom{
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-    
-}
-.menu-num a{
-    text-decoration: none;
-    color: $secondary-color;
-    margin: auto 6px;
-    font-size: 17px;
-    padding: 4px 4px;
-    border-radius: 15px;
-    background-color: $primary-color;
-}
+                }
+               #hr-top{
+                   border: 1px solid red;
+               }  
+                #hr-bottom{
+                    position: absolute;
+                    width: 100%;
+                    bottom: 0px;
+                    border: 1px solid red;
+                }
 
-.kayar1{
-    position: absolute;
-    top:0px;
-    width: 100%;
-    height: 100%;
-    background-image: url("/img/nassim-all-ot-HSrLNTP0-unsplash.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    
-}
-.kayar2{
-    position: absolute;
-    top:0px;
-    width: 100%;
-    height: 100%;
-    background-image: url("/img/pawel-kadysz-CuFYW1c97w8-unsplash.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    
-}
-.kayar3{
-    position: absolute;
-    top:0px;
-    width: 100%;
-    height: 100%;
-    background-image: url("/img/fredrick-tendong-6ou8gWpS9ns-unsplash.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    
-}
-
-
-
-.kayar-content{
-    position: relative;
-    top: 100px;
-    color: $light-color;
-    width: 89%;
-    height: 500px;
-    background-color:rgba(21,20,20,0.2);
+            }
+            
+        }
 
     }
-
-.kayar-content h1{
-    margin-top: 90px;
-    margin-left: 30px;
 }
-.kayar-content p{
-    margin-top: 50px;
-    margin-left: 30px;
-    width: 84%;
-}
-.pin1{
-    z-index: 1;
-    }
 
+
+
+//-----------------------------OWL CAROUSEL---------------------------------
