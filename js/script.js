@@ -3,15 +3,12 @@ let icon=document.querySelector('body > div.login-page > div > div');
 let logbutton=document.querySelector('body > header > div:nth-child(1) > div > div.log-buttons > div:nth-child(1) > a');
 let loginpage=document.querySelector("body > div.login-page");
 
-icon.addEventListener("click", exitcont);
-logbutton.addEventListener("click",opencont);
-function exitcont(){
+icon.addEventListener("click",() => {
     loginpage.style.display= "none";
-}
-
-function opencont(){
-    loginpage.style.display= "block";
-}
+})
+logbutton.addEventListener("click",() =>{
+    loginpage.style.display= "block" ;
+})
 
 
 
