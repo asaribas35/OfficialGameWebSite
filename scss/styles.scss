@@ -68,12 +68,13 @@ hr{
 
 .head-but a{
     position: absolute;
+    top:0px;
     left: 0px;
     width: 100%;
     height: 100%;
     text-decoration: none;
     color: $light-color;
-    
+    padding-top:1em;
 }
 .nav{
     height: 50px;
@@ -227,3 +228,37 @@ hr{
 
 
 //-----------------------------OWL CAROUSEL---------------------------------
+// -----------------------------LOGİN PAGE---------------------------------
+
+.login-page{    //background - login page
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba($color: #0f0f0f, $alpha: 0.7);
+    z-index: 1;
+    left: 0;
+    top:0;
+    
+    .login-content{
+        position: relative;
+        width: 26%;
+        height: 480px;
+        top:200px;
+        left: 37%;
+        background-color: $primary-color;
+        border-radius: 0.5em;
+        .icon-x{
+            position: absolute;
+            right: 2%;
+            top: 2%;
+        }
+    }
+}
+
+
+
+
+
+
+
+// -----------------------------LOGİN PAGE---------------------------------
