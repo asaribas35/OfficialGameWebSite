@@ -93,12 +93,52 @@ hr{
     width: 127px;
     text-align: center;
     transition: 0.8s linear;
+    position: relative;
+   
 }
 .nav-but:hover{
     background-color:$secondary-color;
 }
 
+// DROPDOWN MENU
+    .drop-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        
+        width: 127px;
+        position: absolute;
+        z-index: 2;
+        top: 50px;
+        height: 120px;
+        background-color: $primary-color;
+        opacity: 0;
+        visibility: hidden;
+        transition: .5s ease-in-out;
+            .drop{
+                width: 100%;
+                height: 90%;
+                transition: 0.8s linear;
 
+                
+                &:hover{
+                    background-color: $secondary-color;
+                    
+                }
+            }
+
+    }
+    #game-drop:hover .drop-menu{
+        opacity: 1;
+        visibility: visible;
+    }
+
+
+
+
+
+// DROPDOWN MENU
 .nav-but a{
    
     text-decoration: none;
@@ -141,6 +181,7 @@ hr{
 .main-slider{
     .alan{
         position: relative;
+        
         img{
             width: 100%;
             height: 700px;
