@@ -17,6 +17,9 @@ body{
 }
 header{
     background-color: $primary-color;
+    
+    
+    
 }
 hr{
     border-top:1px solid $secondary-color;
@@ -99,6 +102,7 @@ hr{
 }
 .nav-but:hover{
     background-color:$secondary-color;
+    cursor: pointer;
 }
 
 // DROPDOWN MENU
@@ -148,6 +152,7 @@ hr{
     margin:auto 13px;
     position: relative;
     top: 13px;
+
 }
 .search{
     height: 24px;
@@ -238,8 +243,9 @@ hr{
     z-index: 1;
     left: 0;
     top:0;
-    
+    display: none;
     .login-content{
+        
         position: relative;
         width: 26%;
         height: 480px;
@@ -252,6 +258,33 @@ hr{
             right: 2%;
             top: 2%;
         }
+        .userpng{
+            position: absolute;
+            top:3em;
+            left:39%;
+        }
+        .forms{
+            position: absolute;
+            top: 11em;
+            left: 20%;
+            width: 60%;
+            
+            form{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                height:10em;
+                input{
+                    height: 2.5em; 
+                    background-color: $light-color;  
+                }
+            }
+        }
+        .head-but{
+            top:1em;
+             left: 50%;
+        }
+        
     }
 }
 

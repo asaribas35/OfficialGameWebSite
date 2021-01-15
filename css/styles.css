@@ -121,6 +121,7 @@ hr {
 
 .nav-but:hover {
   background-color: #E51515;
+  cursor: pointer;
 }
 
 .drop-menu {
@@ -257,6 +258,7 @@ hr {
   z-index: 1;
   left: 0;
   top: 0;
+  display: none;
 }
 
 .login-page .login-content {
@@ -273,5 +275,41 @@ hr {
   position: absolute;
   right: 2%;
   top: 2%;
+}
+
+.login-page .login-content .userpng {
+  position: absolute;
+  top: 3em;
+  left: 39%;
+}
+
+.login-page .login-content .forms {
+  position: absolute;
+  top: 11em;
+  left: 20%;
+  width: 60%;
+}
+
+.login-page .login-content .forms form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 10em;
+}
+
+.login-page .login-content .forms form input {
+  height: 2.5em;
+  background-color: #FEFEFE;
+}
+
+.login-page .login-content .head-but {
+  top: 1em;
+  left: 50%;
 }
 /*# sourceMappingURL=styles.css.map */
