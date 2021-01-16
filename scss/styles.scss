@@ -116,6 +116,7 @@ hr{
         position: absolute;
         z-index: 2;
         top: 50px;
+        left:1em;
         height: 120px;
         background-color: $primary-color;
         opacity: 0;
@@ -135,6 +136,11 @@ hr{
 
     }
     #game-drop:hover .drop-menu{
+        opacity: 1;
+        visibility: visible;
+    }
+
+    #ent-drop:hover .drop-menu{
         opacity: 1;
         visibility: visible;
     }
@@ -247,10 +253,11 @@ hr{
     .login-content{
         
         position: relative;
-        width: 26%;
+        width: 360px;
         height: 480px;
+        margin: auto;
         top:200px;
-        left: 37%;
+        
         background-color: $primary-color;
         border-radius: 0.5em;
         .icon-x{
@@ -261,7 +268,7 @@ hr{
         .userpng{
             position: absolute;
             top:3em;
-            left:39%;
+            left:8em;
         }
         .forms{
             position: absolute;

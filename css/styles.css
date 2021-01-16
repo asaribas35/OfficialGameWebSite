@@ -141,6 +141,7 @@ hr {
   position: absolute;
   z-index: 2;
   top: 50px;
+  left: 1em;
   height: 120px;
   background-color: #14151A;
   opacity: 0;
@@ -161,6 +162,11 @@ hr {
 }
 
 #game-drop:hover .drop-menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+#ent-drop:hover .drop-menu {
   opacity: 1;
   visibility: visible;
 }
@@ -263,10 +269,10 @@ hr {
 
 .login-page .login-content {
   position: relative;
-  width: 26%;
+  width: 360px;
   height: 480px;
+  margin: auto;
   top: 200px;
-  left: 37%;
   background-color: #14151A;
   border-radius: 0.5em;
 }
@@ -280,7 +286,7 @@ hr {
 .login-page .login-content .userpng {
   position: absolute;
   top: 3em;
-  left: 39%;
+  left: 8em;
 }
 
 .login-page .login-content .forms {
